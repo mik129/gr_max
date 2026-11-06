@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grproduction Prod - Portfolio & Réalisation</title>
+    <link rel="stylesheet" href="site_gr/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="#hero" class="logo">
+            <img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\CO.png" alt="Grproduction Logo" class="logo-img">
+            <div class="logo-text">Grproduction <span>PROD</span></div>
+        </a>
+        <nav class="nav-links">
+            <a href="#hero">Accueil</a>
+            <a href="#portfolio">Réalisations Vidéo</a>
+            
+            <!-- Menu Déroulant Galerie Photos -->
+            <div class="dropdown">
+                <a href="#galerie" class="dropdown-btn">Galerie Photos <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                <div class="dropdown-content">
+                    <a href="#galerie-moments">Moments & Cérémonies</a>
+                    <a href="#galerie-lifestyle">Lifestyle & Portraits</a>
+                    <a href="#galerie-gastronomie">Gastronomie</a>
+                </div>
+            </div>
+
+            <a href="#arsenal">L'Arsenal</a>
+            <a href="#nos-locaux">Nos Locaux</a>
+            <a href="#contact" class="btn-primary">Contact</a>
+        </nav>
+    </header>
+
+    <!-- SECTION HERO (Accueil) -->
+    <section id="hero" class="hero-section">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\teaser.MOV" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">Production Visuelle & Direct Direction</span>
+            <h1>DES VISUELS QUI FONT DU BRUIT</h1>
+            <p>Réalisation Vidéo & Photo haut de gamme pour marques, artistes et événements à impact.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn-primary">Découvrir les Projets</a>
+                <a href="#contact" class="btn-secondary">Discuter d'un projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION RÉALISATIONS VIDÉO (9 PROJETS) -->
+    <section id="portfolio" class="section">
+        <div class="section-title">
+            <h2>NOS RÉALISATIONS VIDÉO</h2>
+            <p>Une sélection de nos meilleurs projets visuels</p>
+        </div>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            <button class="filter-btn" data-filter="clips">Clips & Artistique</button>
+            <button class="filter-btn" data-filter="corporate">Corporate & Pub</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="card" data-category="lifestyle">
+                <a href="https://vimeo.com/1239466231" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img1.png" alt="Projet 1"></div>
+                    <div class="card-info"><span class="category">Lifestyle / Sport</span><h3>Clip Musical Professionnel</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="lifestyle">
+                <a href="https://vimeo.com/1239466324" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img2.png" alt="Projet 2"></div>
+                    <div class="card-info"><span class="category">Lifestyle / Mode</span><h3>Clip Musical Professionnel</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="clips">
+                <a href="https://vimeo.com/1239466192" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img3.png" alt="Projet 3"></div>
+                    <div class="card-info"><span class="category">Clips & Artistique</span><h3>Film de Mariage Premium</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="corporate">
+                <a href="https://vimeo.com/1239465850" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img4.png" alt="Projet 4"></div>
+                    <div class="card-info"><span class="category">Corporate & Pub</span><h3>Production Corporate BLACK SQUARE</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="lifestyle">
+                <a href="https://vimeo.com/1239465670" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img5.png" alt="Projet 5"></div>
+                    <div class="card-info"><span class="category">Lifestyle</span><h3>Campagne Lifestyle BLACK SQUARE</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="clips">
+                <a href="https://vimeo.com/1239465624" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img6.png" alt="Projet 6"></div>
+                    <div class="card-info"><span class="category">Clips & Artistique</span><h3>Spot Publicitaire</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="corporate">
+                <a href="https://vimeo.com/1239465622" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img7.png" alt="Projet 7"></div>
+                    <div class="card-info"><span class="category">Corporate & Pub</span><h3>Wedding Cinema</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="lifestyle">
+                <a href="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img8.png" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img8.png" alt="Projet 8"></div>
+                    <div class="card-info"><span class="category">Lifestyle / Mode</span><h3>Réalisation Clip Urbain</h3></div>
+                </a>
+            </div>
+            <div class="card" data-category="clips">
+                <a href="https://vimeo.com/1239465620" target="_blank" class="card-link">
+                    <div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\img9.png" alt="Projet 9"></div>
+                    <div class="card-info"><span class="category">Clips & Artistique</span><h3>Campagne Mode & Luxe</h3></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION GALERIE PHOTOS -->
+    <div id="galerie">
+        <!-- MOMENTS & CÉRÉMONIES -->
+        <section id="galerie-moments" class="section gallery-section-bg">
+            <video autoplay muted loop playsinline class="section-bg-video">
+                <source src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\teaser v2 EMMA & BENJAMIN.MOV" type="video/mp4">
+            </video>
+            <div class="section-overlay"></div>
+            <div class="section-content-wrapper">
+                <div class="section-title">
+                    <h2>MOMENTS & CÉRÉMONIES</h2>
+                    <p>Capturer l'émotion brute et l'authenticité de vos plus beaux événements</p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgA.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>Les Préparatifs</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgB.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>L'Élégance du Marié / Un Nouveau Chapitre</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgC.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>Joie Partagée</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgD.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>Cap sur le Bonheur</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgF.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>Littoral d'Élégance</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgG.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>Le Toast des Mariés</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgH.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>Promesse Éternelle ⭐</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\imgI.png" alt="Moments"></div><div class="card-info"><span class="category">Cérémonie</span><h3>L'Instant Précieux</h3></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIFESTYLE & PORTRAITS -->
+        <section id="galerie-lifestyle" class="section gallery-section-bg">
+            <video autoplay muted loop playsinline class="section-bg-video">
+                <source src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\FORMAT INSTA.MP4" type="video/mp4">
+            </video>
+            <div class="section-overlay"></div>
+            <div class="section-content-wrapper">
+                <div class="section-title">
+                    <h2>LIFESTYLE & PORTRAITS</h2>
+                    <p>Des visuels éditoriaux et des portraits à fort esthétisme visuel</p>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im1.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Urban Vibes ⭐</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im2.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Culture Urbaine</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im3.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Vizzionary</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im4.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Studio Session ⭐</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im5.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Cityscape ⭐</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im6.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Garba Nation</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im7.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Performance Live</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im8.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Dark Vision</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im9.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Live Performance</h3></div></div>
+                    <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\im10.png" alt="Portrait"></div><div class="card-info"><span class="category">Portrait</span><h3>Urban Sound</h3></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GASTRONOMIE -->
+        <section id="galerie-gastronomie" class="section bg-darker">
+            <div class="section-title">
+                <h2>GASTRONOMIE</h2>
+                <p>Mise en valeur culinaire haute précision & univers gourmand</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2595.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Le Sandwich Signature</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2596.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Fraîcheur Marine</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2597.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Le Burger Signature</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2598.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Douceur Italienne</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2599.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Penne Arrabbiata</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2600.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Loaded Fries</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2601.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Entrecôte Prestige</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\IMG_2602.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Saumon Gourmet</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\393B6ABC-7CB9-4A88-86D7-A9AEF16133FA.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Grillades & Plantain</h3></div></div>
+                <div class="card"><div class="card-media"><img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\1D4D577B-D8BC-4E3C-AC8F-880DB34C38E5.JPG" alt="Gastro"></div><div class="card-info"><span class="category">Gastronomie</span><h3>Le Saumon Signature</h3></div></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- SECTION L'ARSENAL -->
+    <section id="arsenal" class="section arsenal-bg-section">
+        <div class="arsenal-bg-overlay"></div>
+        <div class="section-content-wrapper">
+            <div class="section-title">
+                <h2>L'ARSENAL</h2>
+                <p>Un équipement technique de pointe pour une qualité cinéma</p>
+            </div>
+            <div class="arsenal-grid">
+                <div class="arsenal-card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Caméras & Optiques</h3>
+                    <p>Boîtiers cinéma haute résolution, objectifs à grande ouverture pour un rendu unique.</p>
+                </div>
+                <div class="arsenal-card">
+                    <i class="fa-solid fa-drone"></i>
+                    <h3>Drones & Prises de vue aériennes</h3>
+                    <p>Captures aériennes FPV et stabilisées 4K pour des perspectives immersives.</p>
+                </div>
+                <div class="arsenal-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Lumière & Post-Production</h3>
+                    <p>Éclairage professionnel studio, étalonnage couleur avancé et montage dynamique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION NOS LOCAUX & ÉQUIPE (Intégrée avec le fond t.png et la vidéo arr.mp4) -->
+    <section id="nos-locaux" class="section nos-locaux-section">
+        <div class="nos-locaux-overlay"></div>
+        <div class="section-content-wrapper">
+            <div class="section-title">
+                <h2>NOS LOCAUX & PARTENAIRES</h2>
+                <p>Immersion, équipe passionnée et partenaires de confiance</p>
+            </div>
+
+            <!-- Vidéo centrale arr.mp4 -->
+            <div class="hero-center-video-wrapper">
+                <video autoplay muted loop playsinline class="hero-center-video">
+                    <source src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\arr.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                </video>
+            </div>
+
+            <!-- Bloc Équipe -->
+            <div class="section-title" style="margin-top: 5rem;">
+                <h2>👥 NOTRE ÉQUIPE</h2>
+                <p>Les talents créatifs derrière chaque production</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <img src="C:\Users\Lenovo\Downloads\site_gr\transfer-01a16b39\Pour site Web\eq.png" alt="gr_max">
+                    </div>
+                    <div class="team-info">
+                        <h3>gr_max</h3>
+                        <span class="team-role">🎥 Réalisateur & Fondateur</span>
+                        <p>"Passionné par l'image et la création audiovisuelle depuis plus de 10 ans."</p>
+                        <div class="team-socials">
+                            <a href="https://instagram.com/gr_max_officiel" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloc Partenaires -->
+            <div class="section-title" style="margin-top: 5rem;">
+                <h2>🤝 CLIENTS & PARTENAIRES</h2>
+                <p>Ils nous ont fait confiance pour donner vie à leurs projets</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <h3>Nike</h3>
+                    <span class="partner-sector">Sport & Équipement</span>
+                    <p>Réalisation vidéo événementielle dynamique et immersive.</p>
+                </div>
+                <div class="partner-card">
+                    <h3>Mairie de Massy</h3>
+                    <span class="partner-sector">Institutionnel & Collectivité</span>
+                    <p>Captation institutionnelle et valorisation du territoire.</p>
+                </div>
+                <div class="partner-card">
+                    <h3>Association XYZ</h3>
+                    <span class="partner-sector">Social & Solidaire</span>
+                    <p>Spot promotionnel de sensibilisation à fort impact émotionnel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="section contact-bg-section">
+        <div class="contact-bg-overlay"></div>
+        <div class="section-content-wrapper">
+            <div class="section-title">
+                <h2>UN PROJET ? PARLONS-EN</h2>
+                <p>Discutons de vos besoins visuels et donnons vie à vos idées.</p>
+            </div>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <input type="text" placeholder="Votre Nom" required>
+                    <input type="email" placeholder="Votre Email" required>
+                    <select required>
+                        <option value="" disabled selected>Type de projet</option>
+                        <option value="lifestyle">Lifestyle / Mode</option>
+                        <option value="clip">Clip Vidéo</option>
+                        <option value="corporate">Publicité / Corporate</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                    <textarea rows="5" placeholder="Parlez-nous de votre projet..." required></textarea>
+                    <button type="submit" class="btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Grproduction Prod. Tous droits réservés. Basé à Paris, disponible à l'international.</p>
+        <p class="footer-contact-info">
+            <i class="fa-brands fa-instagram"></i> Instagram : <a href="https://instagram.com/gr_max_officiel" target="_blank">@gr_max_officiel</a> | 
+            <i class="fa-solid fa-phone"></i> Tél : <a href="tel:+3344924698">+33 44 92 46 98</a>
+        </p>
+    </footer>
+
+    <script src="site_gr/js/main.js"></script>
+</body>
+</html>
